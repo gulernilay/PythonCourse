@@ -1,11 +1,13 @@
+import re 
+
 #ERROR HANDLING:  
 
 #tanımlanmamış değişkeni ekrana yazdırma
-print(a)#Name Error 
+#print(a)#Name Error 
 #string ifadeyi integer a çevirirken:
 int("1a2") #Value Error
 print(10/0) #Zero Division Error 
-print("denem"e) #SyntaX Error
+#print("denem"e) #SyntaX Error
 
 while True:
   try:
@@ -18,7 +20,7 @@ while True:
     print("x ve y için sayısal değer girilmeliir")
   except: # except çalışmazsa else çalışır 
     print("Yanlış bilgi girdiniz")
-  except Exception as ex:
+  #except Exception as ex:
     print("Yanlış bilgi girdiniz,ex")
   else:
     print("Her şey yolunda")
