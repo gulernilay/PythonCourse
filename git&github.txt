@@ -1,0 +1,111 @@
+"""
+Git : versiyon kontrol sistemidir, açık kaynaklı bir yazılımdır. 
+GitHub: Git repolarını sakladığınız versiyon kontrol sistemidir. 
+"""
+#ls komutu: klaör içinde bulunan klasörleri gösterir 
+
+#pwd : print working directory 
+
+#cd appDATA : go to appDATA Folder
+
+#cd .. : quit from directory
+
+#mkdir GİTKURSU : creat a new folder
+
+#touch not.txt :  klasör içinde file yaratır 
+
+#rm not.txt : delete file
+
+#rm -rf niloyaxd : delete folder
+
+#add       Add file contents to the index
+
+#mv        Move or rename a file, a directory, or a symlink
+
+#restore   Restore working tree files
+
+#rm        Remove files from the working tree and from the index
+
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+
+
+examine the history and state (see also: git help revisions)
+   git bisect    Use binary search to find the commit that introduced a bug
+   git diff      Show changes between commits, commit and working tree, etc
+   git grep      Print lines matching a pattern
+   git log       Show commit logs
+   git show      Show various types of objects
+   git status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   git fetch     Download objects and refs from another repository
+   git pull      Fetch from and integrate with another repository or a local branch
+   git push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some concept guides. See 'git help <command>' or 'git help <concept>' to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+
+$ git config --global user.name "Nilay Güler"
+
+$ git config --global user.email gulernilay088@gmail.com
+
+$ git status : git e bağlı mı değilmi , değilse init başlat ls
+fatal: not a git repository (or any of the parent directories): .git
+
+$ git init : git reposu oluşturur : master branchi açar 
+Initialized empty Git repository in C:/Users/nilay/Desktop/GitProjects/.git/
+
+rm -rf .git : ile silinebilir
+
+working directory  ->git add  : staging kalsörüne atar ->git commit :local repoya atar
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+git add "firstfile.txt":  start to track untracked files (indexing /staging are)
+git add . : save all changes    ( first step)
+$ git commit -m"firstcommit"    ( second step) ( put tracked file into local repo )
+git log : see all commits 
+git ignore : save files outside of local repo , not followed by git
+touch .gitignore :reate gitignore folder
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
